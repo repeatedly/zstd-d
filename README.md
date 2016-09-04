@@ -1,6 +1,6 @@
 # Zstd for D
 
-D binding for Zstd: [http://facebook.github.io/zstd/](Zstandard - Real-time data compression algorithm)
+D binding for Zstd: [Zstandard - Real-time data compression algorithm](Zstandard - Real-time data compression algorithm)
 
 ## Requirements
 
