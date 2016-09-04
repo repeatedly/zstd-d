@@ -1,0 +1,11 @@
+{
+  "name": "zstd",
+  "authors": [
+    "Masahiro Nakagawa"
+  ],
+  "description": "D binding for Zstandard",
+  "copyright": "Copyright © 2016, Masahiro Nakagawa",
+  "license": "Boost Software License, Version 1.0",
+  "homepage": "https://github.com/repeatedly/zstd-d",
+  "targetType": "sourceLibrary"
+}
