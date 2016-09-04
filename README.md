@@ -1,6 +1,6 @@
 # Zstd for D
 
-D binding for Facebook's Zstandard: http://facebook.github.io/zstd/
+D binding for Zstd: [http://facebook.github.io/zstd/](Zstandard - Real-time data compression algorithm)
 
 ## Requirements
 
@@ -10,6 +10,10 @@ D binding for Facebook's Zstandard: http://facebook.github.io/zstd/
 
 See [examples](examples/) directory
 
+## Note
+
+`zstd.c.zstd` is converted from v1.0 zstd.h by using dstep.
+
 ## TODO:
 
 - Add streaming APIs
@@ -17,4 +21,4 @@ See [examples](examples/) directory
 
 # License
 
-Zstandard is [Boost-licensed](LICENSE_1_0.txt).
+zstd-d is [Boost-licensed](LICENSE_1_0.txt).
