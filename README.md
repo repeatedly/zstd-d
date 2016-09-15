@@ -16,7 +16,6 @@ See [examples](examples/) directory
 
 ## TODO:
 
-- Add streaming APIs
 - Add Dictionary APIs
 
 # License
