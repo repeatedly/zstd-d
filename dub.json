@@ -7,5 +7,6 @@
   "copyright": "Copyright © 2016, Masahiro Nakagawa",
   "license": "Boost Software License, Version 1.0",
   "homepage": "https://github.com/repeatedly/zstd-d",
-  "targetType": "sourceLibrary"
+  "targetType": "sourceLibrary",
+  "libs": ["zstd"]
 }
