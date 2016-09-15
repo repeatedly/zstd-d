@@ -8,7 +8,11 @@ void main(string[] args)
         throw new Exception("Must specify filename");
 
     // second argument is compression level between 1 - 22
-    auto compressed = compress(std.file.read(args[1]), 3);
+    auto original = std.file.read(args[1]);
+    auto compressed = compress(original, 3);
+    std.stdio.writefln("original size:   %d", original.length);
+    std.stdio.writefln("compressed size: %d", compressed.length);
     auto uncompressed = uncompress(compressed);
-    std.stdio.writeln(cast(string)uncompressed);
+
+    assert(original == uncompressed, "uncompression failed");
 }
