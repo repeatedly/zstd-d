@@ -17,3 +17,11 @@ class ZstdException : Exception
         super(cast(string)ZSTD_getErrorName(code).fromStringz, filename, line);
     }
 }
+
+@property @trusted string zstdVersion()
+{
+    import std.conv : text;
+
+    size_t ver = ZSTD_versionNumber();
+    return text(ver / 10000 % 100, ".", ver / 100 % 100, ".", ver % 100);
+}
