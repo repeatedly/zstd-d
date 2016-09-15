@@ -17,7 +17,7 @@ void main(string[] args)
 
     void zstd()
     {
-        import zstd.zstd;
+        import zstd;
 
         auto r1 = compress(source, 1);
         auto r2 = uncompress(r1);

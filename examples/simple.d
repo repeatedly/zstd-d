@@ -1,4 +1,4 @@
-import zstd.zstd;
+import zstd;
 static import std.file;
 static import std.stdio;
 
