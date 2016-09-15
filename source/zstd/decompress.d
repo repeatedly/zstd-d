@@ -53,7 +53,7 @@ class Decompressor
         closeStream();
     }
 
-    ubyte[] uncompress(const(void)[] src)
+    ubyte[] decompress(const(void)[] src)
     {
         ubyte[] result;
         ZSTD_inBuffer input = {src.ptr, src.length, 0};
