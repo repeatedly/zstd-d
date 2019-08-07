@@ -46,7 +46,7 @@ struct ZSTD_CDict_s;
 
 uint ZSTD_versionNumber ();
 size_t ZSTD_compress (void* dst, size_t dstCapacity, const(void)* src, size_t srcSize, int compressionLevel);
-ulong ZSTD_getDecompressedSize (const(void)* src, size_t srcSize);
+size_t ZSTD_getDecompressedSize (const(void)* src, size_t srcSize);
 size_t ZSTD_decompress (void* dst, size_t dstCapacity, const(void)* src, size_t compressedSize);
 int ZSTD_maxCLevel ();
 size_t ZSTD_compressBound (size_t srcSize);
