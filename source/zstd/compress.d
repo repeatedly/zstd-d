@@ -50,7 +50,7 @@ class Compressor
     {
         assert(Level.min <= level && level <= Level.max);
     }
-    body
+    do
     {
         cstream = ZSTD_createCStream();
         buffer = new ubyte[](recommendedOutSize);
